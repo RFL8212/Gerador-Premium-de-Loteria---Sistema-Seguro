@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Mental - MindMeister Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="toolbar">
+                <button id="add-child-btn" title="Adicionar Filho (Tab)">+ Filho</button>
+                <button id="add-sibling-btn" title="Adicionar Irmão (Enter)">+ Irmão</button>
+                <button id="delete-btn" title="Remover (Del)">Remover</button>
+                <button id="export-json-btn">Exportar JSON</button>
+            </div>
+        </header>
+        <main id="canvas-container">
+            <svg id="mindmap-svg" width="100%" height="100%">
+                <g id="viewport">
+                    <g id="connections-layer"></g>
+                    <g id="nodes-layer"></g>
+                </g>
+            </svg>
+        </main>
+        <footer>
+            <p>Atalhos: Tab (Filho) | Enter (Irmão) | Del (Remover) | Clique Duplo (Editar)</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
