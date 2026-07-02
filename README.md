@@ -6,7 +6,7 @@ Um software web simples e intuitivo que:
 
 Gera jogos aleatórios com base nos números oficiais da Caixa Econômica Federal.
 
-Exibe valores atualizados (junho/2025) por jogo e total da sua aposta.
+Exibe valores atualizados (julho/2026) por jogo e total da sua aposta.
 
 Apresenta estatísticas como soma média e permite imprimir os resultados.
 
@@ -58,7 +58,7 @@ Para imprimir, clique no botão "Imprimir" — você pode salvar o PDF ou imprim
 🎨 Vantagens
 Prático: interface limpa, sem cadastros ou complicações.
 
-Atualizado: preços oficiais da Caixa (última atualização: junho/2025).
+Atualizado: preços oficiais da Caixa (última conferência: julho/2026).
 
 Visual atrativo: experiência agradável com design moderno.
 
@@ -87,6 +87,8 @@ Recomendamos hospedar em:
 Sites HTML, loja virtual, ou abrir localmente via navegador.
 
 Basta abrir o index.html para usar.
+
+Na primeira abertura, configure um usuário e uma senha locais. As credenciais antigas fixas foram removidas do código.
 
 Oferecemos suporte por e-mail ou chat para dúvidas e customizações.
 
