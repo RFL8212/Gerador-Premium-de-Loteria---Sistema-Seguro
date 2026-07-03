@@ -1,94 +1,100 @@
-Gerador Premium de Loteria – Manual do Usuário
-Bem-vindo ao Gerador Premium de Loteria, sua ferramenta para gerar combinações de jogos para Lotofácil, Mega‑Sena e Quina com rapidez e segurança!
+# Loteria Premium
 
-🧭 O que é?
-Um software web simples e intuitivo que:
+Sistema web para geração de combinações de jogos de loteria, com foco em praticidade, visual limpo e uso simples por usuários finais, lojistas ou entusiastas.
 
-Gera jogos aleatórios com base nos números oficiais da Caixa Econômica Federal.
+> Observação importante: este sistema gera combinações e estatísticas para organização de apostas. Ele não garante prêmio, acerto ou vantagem matemática sobre sorteios oficiais.
 
-Exibe valores atualizados (julho/2026) por jogo e total da sua aposta.
+## Nome recomendado do repositório
 
-Apresenta estatísticas como soma média e permite imprimir os resultados.
+O nome atual do repositório é longo. Para manter padrão profissional no GitHub, o nome recomendado é:
 
-Cria uma experiência visual agradável — incluindo efeito de confete após 5 gerações.
+```txt
+loteria-premium
+```
 
-🎯 Funcionalidades
-Seleção de Loteria: escolha entre Lotofácil, Mega‑Sena ou Quina.
+O nome pode ser alterado manualmente nas configurações do GitHub em:
 
-Configuração por dezenas e jogos: personalize sua aposta.
+```txt
+Repository > Settings > General > Repository name
+```
 
-Cálculo automático de preços: sistema usa tabela oficial atualizada.
+## Objetivo do projeto
 
-Geração rápida de combinações.
+Criar uma ferramenta simples para:
 
-Resumo de estatísticas: soma média das dezenas e o valor total.
+- Gerar jogos para diferentes modalidades de loteria.
+- Permitir configuração de dezenas e quantidade de jogos.
+- Exibir resumo dos jogos gerados.
+- Calcular valores estimados por jogo e por aposta.
+- Imprimir ou salvar os jogos em PDF.
+- Entregar uma experiência visual agradável e responsiva.
 
-Impressão estilizada: prática e funcional, com layout otimizado para PDF.
+## Funcionalidades principais
 
-Responsividade: funciona bem em navegadores de desktop, tablets e celulares.
+- Seleção de loteria.
+- Configuração da quantidade de dezenas.
+- Configuração da quantidade de jogos.
+- Geração rápida de combinações.
+- Exibição de soma e estatísticas simples.
+- Impressão otimizada.
+- Layout responsivo para desktop, tablet e celular.
+- Experiência visual com efeitos leves.
 
-🪄 Como usar
-Acesse o sistema via navegador.
+## Como usar
 
-Selecione a loteria desejada (abas superiores).
+1. Abra o sistema no navegador.
+2. Escolha a modalidade de loteria.
+3. Defina a quantidade de dezenas por jogo.
+4. Defina a quantidade de jogos desejada.
+5. Clique em gerar jogos.
+6. Confira os resultados.
+7. Use a opção de impressão para salvar ou imprimir.
 
-Defina:
+## Instalação local
 
-Número de dezenas por jogo.
+Caso o projeto esteja em HTML, CSS e JavaScript puro:
 
-Quantidade de jogos que deseja gerar.
+```bash
+git clone https://github.com/RFL8212/Gerador-Premium-de-Loteria---Sistema-Seguro.git
+cd Gerador-Premium-de-Loteria---Sistema-Seguro
+```
 
-Clique em "Gerar Jogos".
+Depois, abra o arquivo principal no navegador, normalmente:
 
-Os números aparecem na tela com sua soma e valor.
+```txt
+index.html
+```
 
-A cada 5 gerações, há confete celebrando sua ação.
+## Uso comercial possível
 
-Para imprimir, clique no botão "Imprimir" — você pode salvar o PDF ou imprimir direto.
+Este projeto pode evoluir para:
 
-🚀 Cenários de Uso
-🔹 Usuários finais: planejam múltiplos jogos rapidamente.
+- Ferramenta white-label para lotéricas.
+- Gerador personalizado com marca própria.
+- Sistema com login de usuários.
+- Histórico de jogos gerados.
+- Exportação em PDF ou Excel.
+- Integração com loja virtual.
+- Venda como produto digital simples.
 
-🔹 Lojistas de loteria: geram tickets e imprimem para clientes.
+## Cuidados importantes
 
-🔹 Estudiosos ou entusiastas: analisam padrões e estatísticas das combinações.
+- Não prometer acertos ou ganhos.
+- Não usar linguagem que pareça garantia de resultado.
+- Manter sempre aviso claro de que os sorteios são aleatórios.
+- Atualizar preços e modalidades caso haja mudança oficial.
+- Separar bem lógica de geração, layout e impressão.
 
-🔹 Presentes e promoções: presenteie com um método profissional e funcional.
+## Roadmap sugerido
 
-🎨 Vantagens
-Prático: interface limpa, sem cadastros ou complicações.
+1. Padronizar nome do repositório para `loteria-premium`.
+2. Separar arquivos por responsabilidade.
+3. Criar exportação em PDF.
+4. Criar exportação em Excel.
+5. Criar opção de salvar histórico local.
+6. Criar painel administrativo simples.
+7. Criar versão white-label.
 
-Atualizado: preços oficiais da Caixa (última conferência: julho/2026).
+## Status
 
-Visual atrativo: experiência agradável com design moderno.
-
-Flexível: personalização total de dezenas e quantidade de jogos.
-
-Fácil de distribuir: funciona em sites, lojas ou dentro de um app.
-
-🛠️ Suporte e Atualizações
-Atualizamos os valores sempre que a Caixa fizer alterações.
-
-Futuramente poderá contar com gráficos, histórico e opções avançadas.
-
-Estamos disponíveis para:
-
-Personalização visual (cores, logotipo).
-
-Integração com sistemas de impressão ou bancos de dados.
-
-Versão white-label para caixas lotéricas ou parceiros.
-
-💬 Como adquirir e instalar
-Compra garantida via Shopify (ou outro canal escolhido) com entrega digital imediata.
-
-Recomendamos hospedar em:
-
-Sites HTML, loja virtual, ou abrir localmente via navegador.
-
-Basta abrir o index.html para usar.
-
-Na primeira abertura, configure um usuário e uma senha locais. As credenciais antigas fixas foram removidas do código.
-
-Oferecemos suporte por e-mail ou chat para dúvidas e customizações.
-
+Projeto em desenvolvimento.
